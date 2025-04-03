@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E8881BB32D9F2DB600416E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8881BAF2D9F2DB600416E20 /* Assets.xcassets */; };
+		E8881BB42D9F2DB600416E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8881BB02D9F2DB600416E20 /* ContentView.swift */; };
+		E8881BB52D9F2DB600416E20 /* Stickies_Persistence_FinishedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8881BB12D9F2DB600416E20 /* Stickies_Persistence_FinishedApp.swift */; };
+		E8881BB72D9F2DD800416E20 /* Stickie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8881BB62D9F2DD800416E20 /* Stickie.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E8881BA12D9F2DA400416E20 /* Stickies-Persistence-Finished.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stickies-Persistence-Finished.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8881BAF2D9F2DB600416E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8881BB02D9F2DB600416E20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8881BB12D9F2DB600416E20 /* Stickies_Persistence_FinishedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickies_Persistence_FinishedApp.swift; sourceTree = "<group>"; };
+		E8881BB62D9F2DD800416E20 /* Stickie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stickie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E8881BA32D9F2DA400416E20 /* Stickies-Persistence-Finished */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Stickies-Persistence-Finished";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E8881B9E2D9F2DA400416E20 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		E8881B982D9F2DA400416E20 = {
 			isa = PBXGroup;
 			children = (
-				E8881BA32D9F2DA400416E20 /* Stickies-Persistence-Finished */,
+				E8881BB22D9F2DB600416E20 /* Stickies-Persistence-Finished */,
 				E8881BA22D9F2DA400416E20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,17 @@
 				E8881BA12D9F2DA400416E20 /* Stickies-Persistence-Finished.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E8881BB22D9F2DB600416E20 /* Stickies-Persistence-Finished */ = {
+			isa = PBXGroup;
+			children = (
+				E8881BB62D9F2DD800416E20 /* Stickie.swift */,
+				E8881BB12D9F2DB600416E20 /* Stickies_Persistence_FinishedApp.swift */,
+				E8881BB02D9F2DB600416E20 /* ContentView.swift */,
+				E8881BAF2D9F2DB600416E20 /* Assets.xcassets */,
+			);
+			path = "Stickies-Persistence-Finished";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +73,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E8881BA32D9F2DA400416E20 /* Stickies-Persistence-Finished */,
 			);
 			name = "Stickies-Persistence-Finished";
 			packageProductDependencies = (
@@ -109,6 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8881BB32D9F2DB600416E20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8881BB42D9F2DB600416E20 /* ContentView.swift in Sources */,
+				E8881BB52D9F2DB600416E20 /* Stickies_Persistence_FinishedApp.swift in Sources */,
+				E8881BB72D9F2DD800416E20 /* Stickie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
